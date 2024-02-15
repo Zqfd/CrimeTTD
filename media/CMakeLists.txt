@@ -10,12 +10,12 @@ if(NOT UNIX OR APPLE)
 endif()
 
 set(MEDIA_PNG_SOURCE_FILES
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.16.png
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.32.png
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.48.png
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.64.png
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.128.png
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.256.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.16.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.32.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.48.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.64.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.128.png
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.256.png
 )
 
 # Walk over all the png files, and generate a command to copy them
@@ -36,8 +36,8 @@ foreach(MEDIA_PNG_SOURCE_FILE IN LISTS MEDIA_PNG_SOURCE_FILES)
 endforeach()
 
 set(MEDIA_XPM_SOURCE_FILES
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.32.xpm
-        ${CMAKE_CURRENT_SOURCE_DIR}/openttd.64.xpm
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.32.xpm
+        ${CMAKE_CURRENT_SOURCE_DIR}/crime.64.xpm
 )
 
 # Walk over all the xpm files, and generate a command to copy them
