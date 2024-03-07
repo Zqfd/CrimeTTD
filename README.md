@@ -1,4 +1,6 @@
-# OpenTTD
+# CrimeTTD
+
+CrimeTTD is modified version of [OpenTTD](https://www.openttd.org/). This README.md is the same as the original one.
 
 ## Table of contents
 

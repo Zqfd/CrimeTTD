@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.9)
 
 if(NOT BINARY_NAME)
-    set(BINARY_NAME openttd)
+    set(BINARY_NAME crimettd)
 endif()
 
 project(${BINARY_NAME}
