@@ -11,10 +11,10 @@
 ##gender m f
 
 
-# This file is part of OpenTTD.
-# OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
-# OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
+# This file is part of CrimeTTD.
+# CrimeTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# CrimeTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with CrimeTTD. If not, see <http://www.gnu.org/licenses/>.
 
 
 ##id 0x0000
@@ -191,7 +191,7 @@ STR_COLOUR_GREY                                                 :Cinza
 STR_COLOUR_WHITE                                                :Branco
 STR_COLOUR_RANDOM                                               :Aleatório
 
-# Units used in OpenTTD
+# Units used in CrimeTTD
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}{NBSP}mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}{NBSP}km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA}{NBSP}m/s
@@ -371,12 +371,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Construi
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Abrir a barra de paisagismo para elevar ou abaixar terreno, plantar árvores, etc.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Exibir janela de som/música
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Mostrar a última mensagem/notícia, histórico de mensagens ou apagar todas as mensagens
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informações da área de terreno, captura de tela, sobre o OpenTTD e ferramentas de desenvolvedor
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Informações da área de terreno, captura de tela, sobre o CrimeTTD e ferramentas de desenvolvedor
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Trocar a barra de ferramentas
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Salvar cenário, carregar cenário, sair do editor de cenário, sair
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}CrimeTTD
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Editor de Cenário
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Mover a data inicial 1 ano para trás
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Mover a data inicial 1 ano para frente
@@ -508,7 +508,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :Alternar consol
 STR_ABOUT_MENU_AI_DEBUG                                         :Depurar IA/Script do jogo
 STR_ABOUT_MENU_SCREENSHOT                                       :Captura de tela
 STR_ABOUT_MENU_SHOW_FRAMERATE                                   :Exibir taxa de quadros
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Sobre 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Sobre 'CrimeTTD'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Alinhador de "sprites"
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Alternar caixas limítrofes
 STR_ABOUT_MENU_TOGGLE_DIRTY_BLOCKS                              :Alterna a colorização dos blocos sujos
@@ -993,7 +993,7 @@ STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Selecion
 STR_GAME_OPTIONS_LANGUAGE_PERCENTAGE                            :{STRING} ({NUM}% concluído)
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Tela cheia
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Marcar esta caixa para jogar OpenTTD modo de tela cheia
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Marcar esta caixa para jogar CrimeTTD modo de tela cheia
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Resolução da tela
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Selecionar a resolução da tela para usar
@@ -1001,7 +1001,7 @@ STR_GAME_OPTIONS_RESOLUTION_OTHER                               :outra
 STR_GAME_OPTIONS_RESOLUTION_ITEM                                :{NUM}x{NUM}
 
 STR_GAME_OPTIONS_VIDEO_ACCELERATION                             :{BLACK}Aceleração de hardware
-STR_GAME_OPTIONS_VIDEO_ACCELERATION_TOOLTIP                     :{BLACK}Marque esta caixa para permitir que o OpenTTD tente usar a aceleração de hardware. Qualquer mudança nesta configuração só será aplicada após reiniciar o jogo.
+STR_GAME_OPTIONS_VIDEO_ACCELERATION_TOOLTIP                     :{BLACK}Marque esta caixa para permitir que o CrimeTTD tente usar a aceleração de hardware. Qualquer mudança nesta configuração só será aplicada após reiniciar o jogo.
 STR_GAME_OPTIONS_VIDEO_ACCELERATION_RESTART                     :{WHITE}A configuração só terá efeito após reiniciar o jogo
 
 STR_GAME_OPTIONS_VIDEO_VSYNC                                    :{BLACK}VSync
@@ -2044,7 +2044,7 @@ STR_CONFIG_ERROR_INVALID_GRF                                    :{WHITE}... igno
 STR_CONFIG_ERROR_INVALID_GRF_NOT_FOUND                          :não encontrado
 STR_CONFIG_ERROR_INVALID_GRF_UNSAFE                             :inseguro para uso estático
 STR_CONFIG_ERROR_INVALID_GRF_SYSTEM                             :NewGRF do sistema
-STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :incompatível com essa versão do OpenTTD
+STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :incompatível com essa versão do CrimeTTD
 STR_CONFIG_ERROR_INVALID_GRF_UNKNOWN                            :desconhecido
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_LEVEL             :{WHITE}... nível de compressão '{STRING}' é inválido
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_ALGORITHM         :{WHITE}... formato de arquivo '{STRING}' está indisponível. Revertendo para '{STRING}'
@@ -2060,7 +2060,7 @@ STR_VIDEO_DRIVER_ERROR_NO_HARDWARE_ACCELERATION                 :{WHITE}... nenh
 STR_VIDEO_DRIVER_ERROR_HARDWARE_ACCELERATION_CRASH              :{WHITE}... O driver gráfico (GPU) interrompeu o jogo. Aceleração por hardware desativada.
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}CrimeTTD {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Novo Jogo
 STR_INTRO_LOAD_GAME                                             :{BLACK}Abrir Jogo
@@ -2097,14 +2097,14 @@ STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Exibir c
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Checar por conteúdo novo e atualizado para baixar
 STR_INTRO_TOOLTIP_AI_SETTINGS                                   :{BLACK}Mostrar definições de IA
 STR_INTRO_TOOLTIP_GAMESCRIPT_SETTINGS                           :{BLACK}Mostrar definições de Script do Jogo
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Sair do 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Sair do 'CrimeTTD'
 
 STR_INTRO_BASESET                                               :{BLACK}Faltam {NUM} "sprite{P "" s}" no conjunto de gráficos base selecionado. Por favor verifique se há atualizações para ele.
-STR_INTRO_TRANSLATION                                           :{BLACK}Faltam {NUM} string{P "" s} nessa tradução. Por favor faça o OpenTTD melhor se inscrevendo como tradutor. Leia Readme.txt para mais detalhes.
+STR_INTRO_TRANSLATION                                           :{BLACK}Faltam {NUM} string{P "" s} nessa tradução. Por favor faça o CrimeTTD melhor se inscrevendo como tradutor. Leia Readme.txt para mais detalhes.
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Sair
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Tem a certeza que quer sair do OpenTTD?
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}Tem a certeza que quer sair do CrimeTTD?
 STR_QUIT_YES                                                    :{BLACK}Sim
 STR_QUIT_NO                                                     :{BLACK}Não
 
@@ -2183,7 +2183,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Simples
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Seleção de rosto simples.
 STR_FACE_LOAD                                                   :{BLACK}Carregar
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Carregar face favorita
-STR_FACE_LOAD_DONE                                              :{WHITE}Seu rosto favorito foi carregado do arquivo de configuração do OpenTTD
+STR_FACE_LOAD_DONE                                              :{WHITE}Seu rosto favorito foi carregado do arquivo de configuração do CrimeTTD
 STR_FACE_FACECODE                                               :{BLACK}Número da face do jogador.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Ver e/ou alterar número da face do presidente da companhia
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Ver e/ou alterar número da face do presidente
@@ -2191,7 +2191,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Novo có
 STR_FACE_FACECODE_ERR                                           :{WHITE}Não pôde alterar o número de face do presidente - precisa ser um número entre 0 e 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Salvar
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Salvar face favorita
-STR_FACE_SAVE_DONE                                              :{WHITE}Este rosto irá ser salvo como seu rosto favorito no arquivo de configuração do OpenTTD
+STR_FACE_SAVE_DONE                                              :{WHITE}Este rosto irá ser salvo como seu rosto favorito no arquivo de configuração do CrimeTTD
 STR_FACE_EUROPEAN                                               :{BLACK}Europeu
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Selecione faces Européias
 STR_FACE_AFRICAN                                                :{BLACK}Africano
@@ -2517,9 +2517,9 @@ STR_CONTENT_SELECT_UPDATES_CAPTION_TOOLTIP                      :{BLACK}Selecion
 STR_CONTENT_UNSELECT_ALL_CAPTION                                :{BLACK}Desmarcar tudo
 STR_CONTENT_UNSELECT_ALL_CAPTION_TOOLTIP                        :{BLACK}Desceleciona todos
 STR_CONTENT_SEARCH_EXTERNAL                                     :{BLACK}Procurar em sites externos
-STR_CONTENT_SEARCH_EXTERNAL_TOOLTIP                             :{BLACK}Conteúdo procurado não está disponível no servidor de conteúdo do OpenTTD se hospedado em websites não relacionados ao OpenTTD
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}Você está saindo do OpenTTD!
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}Os termos e condições ao baixar conteúdo de fontes externas pode varias.{}Você deverá consultar as fontes para obter instruções de como instalar o conteúdo no OpenTTD.{} Deseja continuar?
+STR_CONTENT_SEARCH_EXTERNAL_TOOLTIP                             :{BLACK}Conteúdo procurado não está disponível no servidor de conteúdo do CrimeTTD se hospedado em websites não relacionados ao CrimeTTD
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}Você está saindo do CrimeTTD!
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}Os termos e condições ao baixar conteúdo de fontes externas pode varias.{}Você deverá consultar as fontes para obter instruções de como instalar o conteúdo no CrimeTTD.{} Deseja continuar?
 STR_CONTENT_FILTER_TITLE                                        :{BLACK}Tag/nome do filtro:
 STR_CONTENT_OPEN_URL                                            :{BLACK}Visitar website
 STR_CONTENT_OPEN_URL_TOOLTIP                                    :{BLACK}Visitar o site desse conteúdo
@@ -2533,7 +2533,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Você n
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Você selecionou para ser baixado
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Esse dependente será baixado
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Você já baixou isso
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Esse conteúdo é desconhecido e não pode ser baixado pelo OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Esse conteúdo é desconhecido e não pode ser baixado pelo CrimeTTD
 
 STR_CONTENT_DETAIL_UPDATE                                       :{G=f}{SILVER}Isso substitui uma {STRING} existente
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Nome: {WHITE}{STRING}
@@ -2545,7 +2545,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Tamanho
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Selecionado pois: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Dependentes: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Tags: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD foi feito sem suporte a "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}CrimeTTD foi feito sem suporte a "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... impossível baixar conteúdo!
 
 # Order of these is important!
@@ -2574,13 +2574,13 @@ STR_CONTENT_ERROR_COULD_NOT_DOWNLOAD_FILE_NOT_WRITABLE          :{WHITE}... falh
 STR_CONTENT_ERROR_COULD_NOT_EXTRACT                             :{WHITE}Falha na descompactação do arquivo
 
 STR_MISSING_GRAPHICS_SET_CAPTION                                :{WHITE}Gráficos faltantes
-STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}OpenTTD requer gráficos para funcionar, mas nenhum foi encontrado. Deseja que OpenTTD conecte-se à internet e baixe esses arquivos?
+STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}CrimeTTD requer gráficos para funcionar, mas nenhum foi encontrado. Deseja que CrimeTTD conecte-se à internet e baixe esses arquivos?
 STR_MISSING_GRAPHICS_YES_DOWNLOAD                               :{BLACK}Sim, baixar os gráficos
-STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Não, sair do OpenTTD
+STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Não, sair do CrimeTTD
 
 STR_MISSING_GRAPHICS_ERROR_TITLE                                :{WHITE}O download falhou
 STR_MISSING_GRAPHICS_ERROR                                      :{BLACK}O download de gráficos falhou.{}Por favor, baixe os gráficos manualmente.
-STR_MISSING_GRAPHICS_ERROR_QUIT                                 :{BLACK}Sair do OpenTTD
+STR_MISSING_GRAPHICS_ERROR_QUIT                                 :{BLACK}Sair do CrimeTTD
 
 # Transparency settings window
 STR_TRANSPARENCY_CAPTION                                        :{WHITE}Opções de Transparência
@@ -3038,11 +3038,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Farol
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Sede de Empresa
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :O terreno é propriedade de uma empresa
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Sobre o OpenTTD...
+# About CrimeTTD window
+STR_ABOUT_OPENTTD                                               :{WHITE}Sobre o CrimeTTD...
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Copyright original {COPYRIGHT} 1995 Chris Sawyer, Todos os direitos reservados
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD versão {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-{STRING} A equipe do OpenTTD
+STR_ABOUT_VERSION                                               :{BLACK}CrimeTTD versão {REV}
+STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}CrimeTTD {COPYRIGHT} 2002-{STRING} A equipe do CrimeTTD
 
 # Framerate display window
 STR_FRAMERATE_CAPTION                                           :{WHITE}Taxa de quadros
@@ -3292,7 +3292,7 @@ STR_NEWGRF_SETTINGS_PARAMETER_NONE                              :Nenhum
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Sem informação disponível
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Arquivo correspondente não encontrado
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Desativado
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Incompatível com esta versão de OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}Incompatível com esta versão de CrimeTTD
 
 # NewGRF save preset window
 STR_SAVE_PRESET_CAPTION                                         :{WHITE}Salvar padrão
@@ -3357,13 +3357,13 @@ STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Erro: {SIL
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Erro Fatal: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Um erro de NewGRF fatal ocorreu:{}{STRING}
 STR_NEWGRF_ERROR_POPUP                                          :{WHITE}Um erro NewGRF ocorreu:{}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} não irá funcionar com a versão do TTDPatch encontrada pelo OpenTTD
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} não irá funcionar com a versão do TTDPatch encontrada pelo CrimeTTD
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} funciona na versão {STRING} de TTD
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} é projetado para ser usado com {2:STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Parâmetro inválido para {1:STRING}: parâmetro {2:STRING} ({3:NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} deve ser carregado antes de {2:STRING}
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} deve ser carregado depois de {2:STRING}
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} requer versão {STRING} ou superior do OpenTTD
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} requer versão {STRING} ou superior do CrimeTTD
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :o arquivo GRF foi designado para tradução
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Muitas NewGRFs estão carregadas
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Carregar {1:STRING} como NewGRF estático com {2:STRING} pode causar dessincronizações
@@ -3381,7 +3381,7 @@ STR_NEWGRF_ERROR_INDPROD_CALLBACK                               :Retorno de prod
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Cuidado!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Você está prestes a efetuar alterações num jogo em progresso. Isto pode travar o OpenTTD ou quebrar o estado do jogo. Não envie relatórios de erros sobre esses assuntos.{}Você tem certeza absoluta sobre isso?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Você está prestes a efetuar alterações num jogo em progresso. Isto pode travar o CrimeTTD ou quebrar o estado do jogo. Não envie relatórios de erros sobre esses assuntos.{}Você tem certeza absoluta sobre isso?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Impossível adicionar: registro de GRF já existe
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Arquivo procurado não encontrado (carregado compatível com GRF)
@@ -3390,7 +3390,7 @@ STR_NEWGRF_TOO_MANY_NEWGRFS                                     :{WHITE}Impossí
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}GRG(s) compatível(eis) carregados para os arquivos que faltam
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}arquivo(s) GRF em falta foram desativados
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Arquivo(s) GRF faltantes
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Despausar pode travar OpenTTD. Não envie relatórios de erros sobre travas subsequentes.{}Você realmente quer despausar?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Despausar pode travar CrimeTTD. Não envie relatórios de erros sobre travas subsequentes.{}Você realmente quer despausar?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Nenhum
@@ -5097,7 +5097,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Impossí
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Impossível alterar nome da placa...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Impossível remover placa
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for CrimeTTD's desktop shortcut
 ###external 1
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Um jogo de simulação baseado no Transport Tycoon Deluxe
 

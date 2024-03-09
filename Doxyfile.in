@@ -7,7 +7,7 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "OpenTTD Source"
+PROJECT_NAME           = "CrimeTTD Source"
 PROJECT_NUMBER         = ${REV_VERSION}
 PROJECT_BRIEF          =
 PROJECT_LOGO           =

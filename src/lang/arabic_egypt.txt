@@ -10,10 +10,10 @@
 ##grflangid 0x14
 
 
-# This file is part of OpenTTD.
-# OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
-# OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
+# This file is part of CrimeTTD.
+# CrimeTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# CrimeTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with CrimeTTD. If not, see <http://www.gnu.org/licenses/>.
 
 
 ##id 0x0000
@@ -189,7 +189,7 @@ STR_COLOUR_BROWN                                                :بني
 STR_COLOUR_GREY                                                 :رمادي
 STR_COLOUR_WHITE                                                :ابيض
 
-# Units used in OpenTTD
+# Units used in CrimeTTD
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}{NBSP}ميل/س
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}{NBSP}كم/س
 STR_UNITS_VELOCITY_SI                                           :{COMMA}{NBSP}م/ث
@@ -487,7 +487,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :توقل كون
 STR_ABOUT_MENU_AI_DEBUG                                         :مكتشف اخطاء الذكاء الصناعي
 STR_ABOUT_MENU_SCREENSHOT                                       :صورة من الشاشة - Ctrl-S -
 STR_ABOUT_MENU_SHOW_FRAMERATE                                   :سرعة عرض الإطارات
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :حول 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENTTD                                    :حول 'CrimeTTD'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :موائم العفريتات
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :اضهار /اخفاء مربح الحوارات/الخيارات
 STR_ABOUT_MENU_TOGGLE_DIRTY_BLOCKS                              :تبديل ألوان الكتل المتسخة
@@ -952,14 +952,14 @@ STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}اختر
 STR_GAME_OPTIONS_LANGUAGE_PERCENTAGE                            :{STRING} ({NUM}% مكتمل)
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}شاشة كاملة
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}اختر هذا المربع للعب OpenTTD على لشاشة الكاملة
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}اختر هذا المربع للعب CrimeTTD على لشاشة الكاملة
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}دقة الشاشة
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}اختر دقة الشاشة
 STR_GAME_OPTIONS_RESOLUTION_OTHER                               :اخرى
 
 STR_GAME_OPTIONS_VIDEO_ACCELERATION                             :{BLACK}تسريع الأجهزة
-STR_GAME_OPTIONS_VIDEO_ACCELERATION_TOOLTIP                     :{BLACK}اخترهذا المربع للسماح لـ OpenTTD بمحاولة استخدام تسريع الأجهزة. سيتم تطبيق الإعداد الذي تم تغييره فقط عند إعادة تشغيل اللعبة
+STR_GAME_OPTIONS_VIDEO_ACCELERATION_TOOLTIP                     :{BLACK}اخترهذا المربع للسماح لـ CrimeTTD بمحاولة استخدام تسريع الأجهزة. سيتم تطبيق الإعداد الذي تم تغييره فقط عند إعادة تشغيل اللعبة
 STR_GAME_OPTIONS_VIDEO_ACCELERATION_RESTART                     :{WHITE}لن يعمل الإعداد إلا بعد إعادة تشغيل اللعبة
 
 STR_GAME_OPTIONS_VIDEO_VSYNC                                    :{BLACK}VSync
@@ -1722,7 +1722,7 @@ STR_CONFIG_ERROR_INVALID_GRF                                    :{WHITE}...تج�
 STR_CONFIG_ERROR_INVALID_GRF_NOT_FOUND                          :غير متوفر
 STR_CONFIG_ERROR_INVALID_GRF_UNSAFE                             :غير امن للاستخدام
 STR_CONFIG_ERROR_INVALID_GRF_SYSTEM                             :نظام الاضافات الجديدة
-STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :غير متطابق مع هذه النسخة من OpenTTD
+STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :غير متطابق مع هذه النسخة من CrimeTTD
 STR_CONFIG_ERROR_INVALID_GRF_UNKNOWN                            :مجهول
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_LEVEL             :{WHITE}... نسبة الضغط '{STRING}' غير صحيحة
 STR_CONFIG_ERROR_OUT_OF_MEMORY                                  :{WHITE}نفذت الذاكرة
@@ -1731,7 +1731,7 @@ STR_CONFIG_ERROR_OUT_OF_MEMORY                                  :{WHITE}نفذت
 STR_VIDEO_DRIVER_ERROR_NO_HARDWARE_ACCELERATION                 :{WHITE}... لم يتم العثور على GPU متوافق. تم تعطيل تسريع الأجهزة
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}CrimeTTD {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}لعبة جديدة
 STR_INTRO_LOAD_GAME                                             :{BLACK} تحميل
@@ -1764,13 +1764,13 @@ STR_INTRO_TOOLTIP_HIGHSCORE                                     :{BLACK}عرض �
 STR_INTRO_TOOLTIP_CONFIG_SETTINGS_TREE                          :{BLACK}إعدادات العرض
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}عرض إعدادات اﻹضافات
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK} ابحث عن محتوى جديد او تحديث
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}اغلاق'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}اغلاق'CrimeTTD'
 
 STR_INTRO_TRANSLATION                                           :{BLACK}هذة الترجمة تفتقد لـ {NUM}عبارات/عبارة. فضلا اجعل الترجمة افضل بالتسجيل في موقع الترجمة, اقرأ ملف المساعدة readme
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}انهاء
-STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}هل أنت متأكد أنك تريد إغلاق OpenTTD؟
+STR_QUIT_ARE_YOU_SURE_YOU_WANT_TO_EXIT_OPENTTD                  :{YELLOW}هل أنت متأكد أنك تريد إغلاق CrimeTTD؟
 STR_QUIT_YES                                                    :{BLACK}نعم
 STR_QUIT_NO                                                     :{BLACK}لا
 
@@ -1846,7 +1846,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}بسيط
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}اختيار الوجة المبسط
 STR_FACE_LOAD                                                   :{BLACK}حمل
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}حمل الوجه المفضل
-STR_FACE_LOAD_DONE                                              :{WHITE}وجهك المفضل تم تحميله من ملف التكوين الخاص بـ OpenTTD.
+STR_FACE_LOAD_DONE                                              :{WHITE}وجهك المفضل تم تحميله من ملف التكوين الخاص بـ CrimeTTD.
 STR_FACE_FACECODE                                               :{BLACK}رقم وجة اللاعب
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}عرض او تغيير رقم الوجة
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}عرض او تغيير رقم وجة اللاعب
@@ -2116,8 +2116,8 @@ STR_CONTENT_SELECT_UPDATES_CAPTION_TOOLTIP                      :{BLACK} ضع ع
 STR_CONTENT_UNSELECT_ALL_CAPTION                                :{BLACK} مسح الكل
 STR_CONTENT_UNSELECT_ALL_CAPTION_TOOLTIP                        :{BLACK} ضع علامة على المحتوى التي لن يتم تحميلها
 STR_CONTENT_SEARCH_EXTERNAL                                     :{BLACK}بحث المواقع الخارجية
-STR_CONTENT_SEARCH_EXTERNAL_TOOLTIP                             :{BLACK} محتوى البحث غير متوفر في في خدمة محتوى OpenTTD على مواقع الويب غير التابعة لـ OpenTTD
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}تختلف شروط وأحكام تنزيل المحتوى من مواقع الويب الخارجية.{}يجب عليك الرجوع إلى المواقع الخارجية للحصول على إرشادات حول كيفية تثبيت المحتوى في OpenTTD.{}هل تريد أن تكمل؟
+STR_CONTENT_SEARCH_EXTERNAL_TOOLTIP                             :{BLACK} محتوى البحث غير متوفر في في خدمة محتوى CrimeTTD على مواقع الويب غير التابعة لـ CrimeTTD
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}تختلف شروط وأحكام تنزيل المحتوى من مواقع الويب الخارجية.{}يجب عليك الرجوع إلى المواقع الخارجية للحصول على إرشادات حول كيفية تثبيت المحتوى في CrimeTTD.{}هل تريد أن تكمل؟
 STR_CONTENT_FILTER_TITLE                                        :{BLACK}مُرَشِح:
 STR_CONTENT_OPEN_URL                                            :{BLACK} زيارة الموقع
 STR_CONTENT_OPEN_URL_TOOLTIP                                    :{BLACK}قم بزيارة الموقع لهذا المحتوى
@@ -2131,7 +2131,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER} لم �
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER} لقد اخترت هذا المحتوى ليتم تحميله
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER} هذا الدعم قد اختير للتحميل
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER} هذا المحتوى موجود لديك مسبقا
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}هذا المحتوى غير معروف و لا يمكت تحميله في OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}هذا المحتوى غير معروف و لا يمكت تحميله في CrimeTTD
 
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}هذا استبدال للملف الموجود {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}الاسم: {WHITE}{STRING}
@@ -2143,7 +2143,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}حجم 
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER} اختير بسبب: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER} الاعتمادية: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER} الاسم الرمزي: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}بنيت OpenTTD بدون دعم "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}بنيت CrimeTTD بدون دعم "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}تحميل محتويات zlib غير ممكن
 
 # Order of these is important!
@@ -2174,7 +2174,7 @@ STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}تحتا
 STR_MISSING_GRAPHICS_YES_DOWNLOAD                               :{BLACK}نعم, حمل الرسومات
 STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}لا, اغلق اللعبة
 
-STR_MISSING_GRAPHICS_ERROR_QUIT                                 :{BLACK}الخروج من OpenTTD
+STR_MISSING_GRAPHICS_ERROR_QUIT                                 :{BLACK}الخروج من CrimeTTD
 
 # Transparency settings window
 STR_TRANSPARENCY_CAPTION                                        :{WHITE}خيارات الشفافية
@@ -2613,7 +2613,7 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :منارة ضو
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :مبنى الشركة الرئيسي
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :ارض مملوكة لشركة
 
-# About OpenTTD window
+# About CrimeTTD window
 STR_ABOUT_OPENTTD                                               :{WHITE}حول النسخة المفتوحة
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}الحقوق الاصلية {COPYRIGHT} كريس سوير 1995 , جميع الحقوق محفوظة
 STR_ABOUT_VERSION                                               :{BLACK}النسخة المفتوحة رقم {REV}
@@ -4447,7 +4447,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}لايم
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}لا يمكن تعديل اسم العلامة ...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}لا يمكن حذف العلامة ...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for CrimeTTD's desktop shortcut
 ###external 1
 STR_DESKTOP_SHORTCUT_COMMENT                                    :نسخة مستنسخة من ترانسبورت تايكون ديلوكس
 

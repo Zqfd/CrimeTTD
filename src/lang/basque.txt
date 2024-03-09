@@ -10,10 +10,10 @@
 ##grflangid 0x21
 
 
-# This file is part of OpenTTD.
-# OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
-# OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
+# This file is part of CrimeTTD.
+# CrimeTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# CrimeTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with CrimeTTD. If not, see <http://www.gnu.org/licenses/>.
 
 
 ##id 0x0000
@@ -189,7 +189,7 @@ STR_COLOUR_BROWN                                                :Marroia
 STR_COLOUR_GREY                                                 :Grisa
 STR_COLOUR_WHITE                                                :Zuria
 
-# Units used in OpenTTD
+# Units used in CrimeTTD
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA}{NBSP}mph
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA}{NBSP}km/h
 STR_UNITS_VELOCITY_SI                                           :{COMMA}{NBSP}m/s
@@ -342,12 +342,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Aireport
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Zabaldu paisaia eraldatzeko lanabesak lurra igotzeko/beheratzeko, zuhaitzak landatu, etab.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Erakutsi soinu/musika leihoa
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Erakutsi azken mezu/albiste erreportaia, erakutsi mezu aukerak
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Lur arearen informazioa, konsola, script debug, screenshots, OpenTTDri buruz
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Lur arearen informazioa, konsola, script debug, screenshots, CrimeTTDri buruz
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Tresna barra aldatu
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Eszenarioa gorde, eszenarioa kargatu, eszenarioaren editorea itxi, irten
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}CrimeTTD
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Eszenario Editorea
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Mugitu hasierako data urte 1 atzerago
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Mugitu hasierako data urte 1 aurrerago
@@ -473,7 +473,7 @@ STR_ABOUT_MENU_SEPARATOR                                        :
 STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :Konsola aktibatu
 STR_ABOUT_MENU_AI_DEBUG                                         :IA/Joko script-aren garbitzailea
 STR_ABOUT_MENU_SCREENSHOT                                       :Pantailan dagoenaren argazkia hartu (Ctrl+S)
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'OpenTTD'-ri buruz
+STR_ABOUT_MENU_ABOUT_OPENTTD                                    :'CrimeTTD'-ri buruz
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :"Sprit" lerrokatzailea
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Kaxen neurriak aldatu
 STR_ABOUT_MENU_TOGGLE_DIRTY_BLOCKS                              :Txandakatu bloke zikinen kolorea
@@ -931,7 +931,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Hizkuntz
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Aukeratu interfazean erabiltzeko hizkuntza
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Pantaila osoa
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Markatu kaxa hau OpenTTD pantaila osoko moduan jolasteko
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Markatu kaxa hau CrimeTTD pantaila osoko moduan jolasteko
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Pantailaren resoluzioa
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Pantailaren resulozioa aukeratu
@@ -1802,7 +1802,7 @@ STR_CONFIG_ERROR_INVALID_GRF                                    :{WHITE}... NewG
 STR_CONFIG_ERROR_INVALID_GRF_NOT_FOUND                          :ez da aurkitu
 STR_CONFIG_ERROR_INVALID_GRF_UNSAFE                             :Ez segurua erabilera estatikoarentzat
 STR_CONFIG_ERROR_INVALID_GRF_SYSTEM                             :sistema NewGRF
-STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :bateraezina OpenTTD bertsio honetarako
+STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :bateraezina CrimeTTD bertsio honetarako
 STR_CONFIG_ERROR_INVALID_GRF_UNKNOWN                            :ezezaguna
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_LEVEL             :{WHITE}... '{STRING}' konpresio maila ez da baliozkoa
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_ALGORITHM         :{WHITE}... Gordetako jokoen '{STRING}' formatua ez dago erabilgarri . '{STRING}' erabiltzen
@@ -1814,7 +1814,7 @@ STR_CONFIG_ERROR_OUT_OF_MEMORY                                  :{WHITE}Memoriaz
 # Video initalization errors
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}CrimeTTD {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Joko Berria
 STR_INTRO_LOAD_GAME                                             :{BLACK}Jokoa Kargatu
@@ -1847,9 +1847,9 @@ STR_INTRO_TOOLTIP_HIGHSCORE                                     :{BLACK}Puntuazi
 STR_INTRO_TOOLTIP_CONFIG_SETTINGS_TREE                          :{BLACK}Ezarpenak erakutsi
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}NewGRF ezarpenak erakutsi
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Bilatu eduki berria eta eguneratua deskargatzeko
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'OpenTTD'-tik Irten
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}'CrimeTTD'-tik Irten
 
-STR_INTRO_TRANSLATION                                           :{BLACK}Itzultze honi {NUM} string falta zaio/zaizkio. Mesedez OpenTTD hobeago egiten lagundu itzultzaile bezala aritzen. Ikusi readme.txt xehetasunentzako.
+STR_INTRO_TRANSLATION                                           :{BLACK}Itzultze honi {NUM} string falta zaio/zaizkio. Mesedez CrimeTTD hobeago egiten lagundu itzultzaile bezala aritzen. Ikusi readme.txt xehetasunentzako.
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Irten
@@ -1927,7 +1927,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Oinarriz
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Oinarrizko aurpegi aukera
 STR_FACE_LOAD                                                   :{BLACK}Kargatu
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Aurpegi kargatu
-STR_FACE_LOAD_DONE                                              :{WHITE}Zure aurpegia OpenTTD konfigurazio artxibotik kargatu da
+STR_FACE_LOAD_DONE                                              :{WHITE}Zure aurpegia CrimeTTD konfigurazio artxibotik kargatu da
 STR_FACE_FACECODE                                               :{BLACK}Jokalariaren aurpegi zenbakia
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Lehendakariaren aurpegi zenbakia aukeratu/ikusi
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Lehendakariaren aurpegi zenbakia aldatu/ikusi
@@ -1935,7 +1935,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Aurpegi 
 STR_FACE_FACECODE_ERR                                           :{WHITE}Ezin izan da aurpegi berrirako zenbakia ezarri - 0 eta 4,294,967,295 arteko zenbakia izan behar du!
 STR_FACE_SAVE                                                   :{BLACK}Gorde
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Aurpegia gorde
-STR_FACE_SAVE_DONE                                              :{WHITE}Aurpegia zure aurpegi gogoko bezala gorde da OpenTTDko konfigurazio artxiboan
+STR_FACE_SAVE_DONE                                              :{WHITE}Aurpegia zure aurpegi gogoko bezala gorde da CrimeTTDko konfigurazio artxiboan
 STR_FACE_EUROPEAN                                               :{BLACK}Europarra
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Europarren aurpegiak aukeratu
 STR_FACE_AFRICAN                                                :{BLACK}Afrikarra
@@ -2184,7 +2184,7 @@ STR_CONTENT_SELECT_UPDATES_CAPTION_TOOLTIP                      :{BLACK}Haukerat
 STR_CONTENT_UNSELECT_ALL_CAPTION                                :{BLACK}Guztia desmarkatu
 STR_CONTENT_UNSELECT_ALL_CAPTION_TOOLTIP                        :{BLACK}Dekargatuak izango ez diren eduki guztiak markatu
 STR_CONTENT_SEARCH_EXTERNAL                                     :{BLACK}Kanpoko webguneak bilatu
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}OpenTTD uzten zaude!
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}CrimeTTD uzten zaude!
 STR_CONTENT_FILTER_TITLE                                        :{BLACK}Etiketa/izen iragazkia:
 STR_CONTENT_OPEN_URL                                            :{BLACK}Webgunera joan
 STR_CONTENT_OPEN_URL_TOOLTIP                                    :{BLACK}Eduki honen webgunera joan
@@ -2198,7 +2198,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Ez duzu
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Desgarkatzeko aukeratu duzu
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Mendekotasun hau deskargatzeko aukeratua izan da
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Iada eduki hau daukazu
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Edukia ezezaguna da eta ezin da OpenTTD-n deskargatu
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Edukia ezezaguna da eta ezin da CrimeTTD-n deskargatu
 
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER} {STRING} ordezkoa da
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Izena: {WHITE}{STRING}
@@ -2210,7 +2210,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Deskarg
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Honengatik aurkeratua: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Menpekotasunak: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Etiketak: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD "zlib" euskarria gabe eraikita dago...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}CrimeTTD "zlib" euskarria gabe eraikita dago...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... ezin da edukia deskargatu!
 
 # Order of these is important!
@@ -2239,9 +2239,9 @@ STR_CONTENT_ERROR_COULD_NOT_DOWNLOAD_FILE_NOT_WRITABLE          :{WHITE}... idat
 STR_CONTENT_ERROR_COULD_NOT_EXTRACT                             :{WHITE}Ezin izan da deskonprimitu deskargatutako artxiboa
 
 STR_MISSING_GRAPHICS_SET_CAPTION                                :{WHITE}Grafikoak faltatzen dira
-STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}OpenTTD-k grafikoak behar ditu funtzionatzeko baina ez ditu aurkitzen. Baimena ematen diozu grafiko hauek deskargatu eta instalatzeko?
+STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}CrimeTTD-k grafikoak behar ditu funtzionatzeko baina ez ditu aurkitzen. Baimena ematen diozu grafiko hauek deskargatu eta instalatzeko?
 STR_MISSING_GRAPHICS_YES_DOWNLOAD                               :{BLACK}Bai, grafikoak jaitsi
-STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Ez, OpenTTD itxi
+STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Ez, CrimeTTD itxi
 
 
 # Transparency settings window
@@ -2664,11 +2664,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Itsasargia
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :Konpainiaren egoitza
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Konpainia jabe den lur saila
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}OpenTTD-ri buruz
+# About CrimeTTD window
+STR_ABOUT_OPENTTD                                               :{WHITE}CrimeTTD-ri buruz
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Original copyright {COPYRIGHT} 1995 Chris Sawyer, All rights reserved
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD bertsioa {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT} 2002-{STRING} The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}CrimeTTD bertsioa {REV}
+STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}CrimeTTD {COPYRIGHT} 2002-{STRING} The CrimeTTD team
 
 # Framerate display window
 STR_FRAMERATE_FPS_BAD                                           :{RED}{DECIMAL} koadroak/s
@@ -2840,7 +2840,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Parametr
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Ez dago informaziorik
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Ez da aurkitu beharrezko fitxategia
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Desgaitua
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}OpenTTD-ren bertsio honekin bateraezina
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{RED}CrimeTTD-ren bertsio honekin bateraezina
 
 # NewGRF save preset window
 STR_SAVE_PRESET_CANCEL_TOOLTIP                                  :{BLACK}Ez aldatu berezko balioa
@@ -2894,13 +2894,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Kontuz: {S
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Akatsa {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Larria: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}NewGRF-an akats larria gertatu da:{}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} ez du funtzionatuko OpenTTD-k esandakoTTDPatch bertsioarekin
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} ez du funtzionatuko CrimeTTD-k esandakoTTDPatch bertsioarekin
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} {STRING} TTD bertsioarentzat da
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} {STRING}arekin erabiltzeko diseinatua izan da
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :{1:STRING}rentzako parametro baliogabea: parametro {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} {STRING} aurretik kargatu behar da
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} {STRING} eta gero kargatu behar da
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} {STRING} OpenTTD bertsioa edo hobeagoa beharrezkoa du
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} {STRING} CrimeTTD bertsioa edo hobeagoa beharrezkoa du
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF artxiboa itzulpena egiteko diseinatu zen
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :NewGRF gehiegi kargatu dira
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :{1:STRING} NewGRF estatiko bezala {STRING}arekin kargatzeak moteldurak sortu ditzake
@@ -2916,7 +2916,7 @@ STR_NEWGRF_ERROR_INVALID_SPRITE_LAYOUT                          :Grafiko deseinu
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Kontuz!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Abiarazitako jokoan aldaketak egin behar dituzu. Honek akatsak sortu ditzake OpenTTD-n edo jokoan. Ez bidali arazo hauen informerik{}Ziur zaude egin nahi duzula?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}Abiarazitako jokoan aldaketak egin behar dituzu. Honek akatsak sortu ditzake CrimeTTD-n edo jokoan. Ez bidali arazo hauen informerik{}Ziur zaude egin nahi duzula?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Ezin artxiboa gehitu: GRF ID bikoiztua
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Bat datorren artxiboa ez da aurkitu (GRF bateragarria kargatua)
@@ -4478,7 +4478,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Ezin da 
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Ezin da seinaleren izena aldatu...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Ezin da seinalea ezabatu...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for CrimeTTD's desktop shortcut
 ###external 1
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Transport Tycoon Deluxe-ren simulazio bat
 

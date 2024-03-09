@@ -12,10 +12,10 @@
 ##case m f n p
 
 
-# This file is part of OpenTTD.
-# OpenTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
-# OpenTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with OpenTTD. If not, see <http://www.gnu.org/licenses/>.
+# This file is part of CrimeTTD.
+# CrimeTTD is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 2.
+# CrimeTTD is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with CrimeTTD. If not, see <http://www.gnu.org/licenses/>.
 
 
 ##id 0x0000
@@ -191,7 +191,7 @@ STR_COLOUR_BROWN                                                :Кафяво
 STR_COLOUR_GREY                                                 :Сиво
 STR_COLOUR_WHITE                                                :Бяло
 
-# Units used in OpenTTD
+# Units used in CrimeTTD
 STR_UNITS_VELOCITY_IMPERIAL                                     :{COMMA} мил{P я и}/ч
 STR_UNITS_VELOCITY_METRIC                                       :{COMMA} км/ч
 STR_UNITS_VELOCITY_SI                                           :{COMMA} м/с
@@ -346,12 +346,12 @@ STR_TOOLBAR_TOOLTIP_BUILD_AIRPORTS                              :{BLACK}Пост
 STR_TOOLBAR_TOOLTIP_LANDSCAPING                                 :{BLACK}Отворете лентата с инструменти за тераформиране за да повишавате/понижавате земя, засаждате дърва, и др.
 STR_TOOLBAR_TOOLTIP_SHOW_SOUND_MUSIC_WINDOW                     :{BLACK}Покажи прозореца за звук/музика
 STR_TOOLBAR_TOOLTIP_SHOW_LAST_MESSAGE_NEWS                      :{BLACK}Покажи последното съобщение/новини, покажи настройките на съобщенията
-STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Информация за земята, конзолата, ИИ дебъг, екранни снимки, за OpenTTD
+STR_TOOLBAR_TOOLTIP_LAND_BLOCK_INFORMATION                      :{BLACK}Информация за земята, конзолата, ИИ дебъг, екранни снимки, за CrimeTTD
 STR_TOOLBAR_TOOLTIP_SWITCH_TOOLBAR                              :{BLACK}Размяна на ленти с инструменти
 
 # Extra tooltips for the scenario editor toolbar
 STR_SCENEDIT_TOOLBAR_TOOLTIP_SAVE_SCENARIO_LOAD_SCENARIO        :{BLACK}Запис, зареждане на сценарий, затваряне на редактора, изход
-STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}OpenTTD
+STR_SCENEDIT_TOOLBAR_OPENTTD                                    :{YELLOW}CrimeTTD
 STR_SCENEDIT_TOOLBAR_SCENARIO_EDITOR                            :{YELLOW}Редактор на сценарии
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_BACKWARD    :{BLACK}Премести назад началната дата с 1 година
 STR_SCENEDIT_TOOLBAR_TOOLTIP_MOVE_THE_STARTING_DATE_FORWARD     :{BLACK}Премести напред началната дата с 1 година
@@ -479,7 +479,7 @@ STR_ABOUT_MENU_TOGGLE_CONSOLE                                   :Показва�
 STR_ABOUT_MENU_AI_DEBUG                                         :ИИ дебъг
 STR_ABOUT_MENU_SCREENSHOT                                       :Screenshot
 STR_ABOUT_MENU_SHOW_FRAMERATE                                   :Показване на честотата на кадрите
-STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Относно 'OpenTTD'
+STR_ABOUT_MENU_ABOUT_OPENTTD                                    :Относно 'CrimeTTD'
 STR_ABOUT_MENU_SPRITE_ALIGNER                                   :Подравнител на спрайтове
 STR_ABOUT_MENU_TOGGLE_BOUNDING_BOXES                            :Активиране слепване на прозорците
 STR_ABOUT_MENU_TOGGLE_DIRTY_BLOCKS                              :Превключва оцветяване на замърсените блокове
@@ -939,7 +939,7 @@ STR_GAME_OPTIONS_LANGUAGE                                       :{BLACK}Език
 STR_GAME_OPTIONS_LANGUAGE_TOOLTIP                               :{BLACK}Избор на език
 
 STR_GAME_OPTIONS_FULLSCREEN                                     :{BLACK}Цял екран
-STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Изберете тази опция за да играете OpenTTD в цял екран
+STR_GAME_OPTIONS_FULLSCREEN_TOOLTIP                             :{BLACK}Изберете тази опция за да играете CrimeTTD в цял екран
 
 STR_GAME_OPTIONS_RESOLUTION                                     :{BLACK}Размер на екрана
 STR_GAME_OPTIONS_RESOLUTION_TOOLTIP                             :{BLACK}Избор размера на екран
@@ -1845,7 +1845,7 @@ STR_CONFIG_ERROR_INVALID_GRF                                    :{WHITE}... иг
 STR_CONFIG_ERROR_INVALID_GRF_NOT_FOUND                          :не е открит
 STR_CONFIG_ERROR_INVALID_GRF_UNSAFE                             :не е безопасно за статична употреба
 STR_CONFIG_ERROR_INVALID_GRF_SYSTEM                             :системен NewGRF
-STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :несъвместимо с тази версия на OpenTTD
+STR_CONFIG_ERROR_INVALID_GRF_INCOMPATIBLE                       :несъвместимо с тази версия на CrimeTTD
 STR_CONFIG_ERROR_INVALID_GRF_UNKNOWN                            :неизвестна
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_LEVEL             :{WHITE}... степен на компресия '{STRING}' е невалидна
 STR_CONFIG_ERROR_INVALID_SAVEGAME_COMPRESSION_ALGORITHM         :{WHITE}... savegame форматът '{STRING}' не е достъпен. Връщане към '{STRING}'
@@ -1857,7 +1857,7 @@ STR_CONFIG_ERROR_OUT_OF_MEMORY                                  :{WHITE}Отвъ
 # Video initalization errors
 
 # Intro window
-STR_INTRO_CAPTION                                               :{WHITE}OpenTTD {REV}
+STR_INTRO_CAPTION                                               :{WHITE}CrimeTTD {REV}
 
 STR_INTRO_NEW_GAME                                              :{BLACK}Нова игра
 STR_INTRO_LOAD_GAME                                             :{BLACK}Отваряне на игра
@@ -1890,9 +1890,9 @@ STR_INTRO_TOOLTIP_HIGHSCORE                                     :{BLACK}Пока
 STR_INTRO_TOOLTIP_CONFIG_SETTINGS_TREE                          :{BLACK}Настройки на дисплея
 STR_INTRO_TOOLTIP_NEWGRF_SETTINGS                               :{BLACK}Покажи NewGRF настройки
 STR_INTRO_TOOLTIP_ONLINE_CONTENT                                :{BLACK}Провери за ново съдържание за сваляне
-STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Изход от 'OpenTTD'
+STR_INTRO_TOOLTIP_QUIT                                          :{BLACK}Изход от 'CrimeTTD'
 
-STR_INTRO_TRANSLATION                                           :{BLACK}На този превод му липсват {NUM} string{P "" s}. Помогнете на OpenTTD като се запишете за преводач. Вижте readme.txt за повече информация.
+STR_INTRO_TRANSLATION                                           :{BLACK}На този превод му липсват {NUM} string{P "" s}. Помогнете на CrimeTTD като се запишете за преводач. Вижте readme.txt за повече информация.
 
 # Quit window
 STR_QUIT_CAPTION                                                :{WHITE}Изход
@@ -1972,7 +1972,7 @@ STR_FACE_SIMPLE                                                 :{BLACK}Прос
 STR_FACE_SIMPLE_TOOLTIP                                         :{BLACK}Проста лице селекция.
 STR_FACE_LOAD                                                   :{BLACK}Отваряне
 STR_FACE_LOAD_TOOLTIP                                           :{BLACK}Отваряне на любимо лице
-STR_FACE_LOAD_DONE                                              :{WHITE}Твоето любимо лице е заредено от OpenTTD config файлът.
+STR_FACE_LOAD_DONE                                              :{WHITE}Твоето любимо лице е заредено от CrimeTTD config файлът.
 STR_FACE_FACECODE                                               :{BLACK}Номер на лице на играч.
 STR_FACE_FACECODE_TOOLTIP                                       :{BLACK}Виж и/или избери номер за лик на президента на компанията
 STR_FACE_FACECODE_CAPTION                                       :{WHITE}Виж и/или избери число за лик на президента
@@ -1980,7 +1980,7 @@ STR_FACE_FACECODE_SET                                           :{WHITE}Нов �
 STR_FACE_FACECODE_ERR                                           :{WHITE}Ново число за лик на президента не може да бъде избрано - трябва да е число между 0 и 4,294,967,295!
 STR_FACE_SAVE                                                   :{BLACK}Запази
 STR_FACE_SAVE_TOOLTIP                                           :{BLACK}Запази любимо лице
-STR_FACE_SAVE_DONE                                              :{WHITE}Това лице ще бъде запазено като твоето любимо в OpenTTD config файлът.
+STR_FACE_SAVE_DONE                                              :{WHITE}Това лице ще бъде запазено като твоето любимо в CrimeTTD config файлът.
 STR_FACE_EUROPEAN                                               :{BLACK}Eвропеец
 STR_FACE_SELECT_EUROPEAN                                        :{BLACK}Избери Европейски лица
 STR_FACE_AFRICAN                                                :{BLACK}Aфриканец
@@ -2229,8 +2229,8 @@ STR_CONTENT_SELECT_UPDATES_CAPTION_TOOLTIP                      :{BLACK}Избе
 STR_CONTENT_UNSELECT_ALL_CAPTION                                :{BLACK}Премахнете всички
 STR_CONTENT_UNSELECT_ALL_CAPTION_TOOLTIP                        :{BLACK}Размаркирай всичко
 STR_CONTENT_SEARCH_EXTERNAL                                     :{BLACK}Претърсване на външни уебстраници
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}Напускате OpenTTD!
-STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}Условията и редът за сваляне на съдържание от външни уебсайтове са най-различни.{}Ще трябва да се обърнете към самият сайт за инструкции как да инсталирате съдържание в OpenTTD.{}Искате ли да продължите?
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER_CAPTION                  :{WHITE}Напускате CrimeTTD!
+STR_CONTENT_SEARCH_EXTERNAL_DISCLAIMER                          :{WHITE}Условията и редът за сваляне на съдържание от външни уебсайтове са най-различни.{}Ще трябва да се обърнете към самият сайт за инструкции как да инсталирате съдържание в CrimeTTD.{}Искате ли да продължите?
 STR_CONTENT_FILTER_TITLE                                        :{BLACK}Филтър по таг/име:
 STR_CONTENT_OPEN_URL                                            :{BLACK}Посети уебсайта
 STR_CONTENT_OPEN_URL_TOOLTIP                                    :{BLACK}Посети уебсайта за това съдържание
@@ -2244,7 +2244,7 @@ STR_CONTENT_DETAIL_SUBTITLE_UNSELECTED                          :{SILVER}Не с
 STR_CONTENT_DETAIL_SUBTITLE_SELECTED                            :{SILVER}Избрахте този модул за сваляне
 STR_CONTENT_DETAIL_SUBTITLE_AUTOSELECTED                        :{SILVER}Тази зависимост е избрана за сваляне
 STR_CONTENT_DETAIL_SUBTITLE_ALREADY_HERE                        :{SILVER}Вие вече имате това
-STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Това съдържание е неизвестно и не може да се изтегли в OpenTTD
+STR_CONTENT_DETAIL_SUBTITLE_DOES_NOT_EXIST                      :{SILVER}Това съдържание е неизвестно и не може да се изтегли в CrimeTTD
 
 STR_CONTENT_DETAIL_UPDATE                                       :{SILVER}Това е подмяна на съществуващ {STRING}
 STR_CONTENT_DETAIL_NAME                                         :{SILVER}Име: {WHITE}{STRING}
@@ -2256,7 +2256,7 @@ STR_CONTENT_DETAIL_FILESIZE                                     :{SILVER}Гол�
 STR_CONTENT_DETAIL_SELECTED_BECAUSE_OF                          :{SILVER}Избрани поради: {WHITE}{STRING}
 STR_CONTENT_DETAIL_DEPENDENCIES                                 :{SILVER}Зависимости: {WHITE}{STRING}
 STR_CONTENT_DETAIL_TAGS                                         :{SILVER}Тагове: {WHITE}{STRING}
-STR_CONTENT_NO_ZLIB                                             :{WHITE}OpenTTD е построен без поддръжка на "zlib"...
+STR_CONTENT_NO_ZLIB                                             :{WHITE}CrimeTTD е построен без поддръжка на "zlib"...
 STR_CONTENT_NO_ZLIB_SUB                                         :{WHITE}... изтеглянето на съдържанието не е възможно!
 
 # Order of these is important!
@@ -2285,9 +2285,9 @@ STR_CONTENT_ERROR_COULD_NOT_DOWNLOAD_FILE_NOT_WRITABLE          :{WHITE}... фа
 STR_CONTENT_ERROR_COULD_NOT_EXTRACT                             :{WHITE}Не може да се декомпресира изтегления файл
 
 STR_MISSING_GRAPHICS_SET_CAPTION                                :{WHITE}Липсват графики
-STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}OpenTTD изисква графики, които не могат да бъдат намерени. Ще позволите ли на OpenTTD да изтегли и инсталира тези графики?
+STR_MISSING_GRAPHICS_SET_MESSAGE                                :{BLACK}CrimeTTD изисква графики, които не могат да бъдат намерени. Ще позволите ли на CrimeTTD да изтегли и инсталира тези графики?
 STR_MISSING_GRAPHICS_YES_DOWNLOAD                               :{BLACK}Да, изтегли графиките
-STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Не, изход от OpenTTD
+STR_MISSING_GRAPHICS_NO_QUIT                                    :{BLACK}Не, изход от CrimeTTD
 
 
 # Transparency settings window
@@ -2712,11 +2712,11 @@ STR_LAI_OBJECT_DESCRIPTION_LIGHTHOUSE                           :Фар
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_HEADQUARTERS                 :централа
 STR_LAI_OBJECT_DESCRIPTION_COMPANY_OWNED_LAND                   :Земя, притежавана от компанията
 
-# About OpenTTD window
-STR_ABOUT_OPENTTD                                               :{WHITE}Относно OpenTTD
+# About CrimeTTD window
+STR_ABOUT_OPENTTD                                               :{WHITE}Относно CrimeTTD
 STR_ABOUT_ORIGINAL_COPYRIGHT                                    :{BLACK}Авторски права {COPYRIGHT} 1995 Крис Сойер (Chris Sawyer), Всички права са запазени
-STR_ABOUT_VERSION                                               :{BLACK}OpenTTD версия {REV}
-STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}OpenTTD {COPYRIGHT}2002-{STRING} The OpenTTD team
+STR_ABOUT_VERSION                                               :{BLACK}CrimeTTD версия {REV}
+STR_ABOUT_COPYRIGHT_OPENTTD                                     :{BLACK}CrimeTTD {COPYRIGHT}2002-{STRING} The CrimeTTD team
 
 # Framerate display window
 STR_FRAMERATE_CAPTION                                           :{WHITE}Скорост на кадрите
@@ -2895,7 +2895,7 @@ STR_NEWGRF_SETTINGS_PARAMETER                                   :{BLACK}Пара
 STR_NEWGRF_SETTINGS_NO_INFO                                     :{BLACK}Няма налична информация
 STR_NEWGRF_SETTINGS_NOT_FOUND                                   :{RED}Не е намерен отговарящ файл
 STR_NEWGRF_SETTINGS_DISABLED                                    :{RED}Изключен
-STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{G=n}{RED}Несъвместимо с тази версия на OpenTTD
+STR_NEWGRF_SETTINGS_INCOMPATIBLE                                :{G=n}{RED}Несъвместимо с тази версия на CrimeTTD
 
 # NewGRF save preset window
 STR_SAVE_PRESET_LIST_TOOLTIP                                    :{BLACK}Списък на наличните предварително зададени настройки. Изберете една, за да я откопирате в името за запис по-долу
@@ -2951,13 +2951,13 @@ STR_NEWGRF_ERROR_MSG_WARNING                                    :{RED}Внима
 STR_NEWGRF_ERROR_MSG_ERROR                                      :{RED}Грешка: {SILVER}{STRING}
 STR_NEWGRF_ERROR_MSG_FATAL                                      :{RED}Критично: {SILVER}{STRING}
 STR_NEWGRF_ERROR_FATAL_POPUP                                    :{WHITE}Настъпи фатална грешка в NewGRF:{}{STRING}
-STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} няма да работи с версията на TTDPatch указана от OpenTTD.
+STR_NEWGRF_ERROR_VERSION_NUMBER                                 :{1:STRING} няма да работи с версията на TTDPatch указана от CrimeTTD.
 STR_NEWGRF_ERROR_DOS_OR_WINDOWS                                 :{1:STRING} е за {STRING} версията на TTD.
 STR_NEWGRF_ERROR_UNSET_SWITCH                                   :{1:STRING} е проектиран да работи с {STRING}
 STR_NEWGRF_ERROR_INVALID_PARAMETER                              :Невалиден параметър за {1:STRING}: параметър {STRING} ({NUM})
 STR_NEWGRF_ERROR_LOAD_BEFORE                                    :{1:STRING} трябва да бъде зареден преди {STRING}.
 STR_NEWGRF_ERROR_LOAD_AFTER                                     :{1:STRING} трябва да бъде зареден след {STRING}.
-STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} изисква OpenTTD версия {STRING} или по-нова.
+STR_NEWGRF_ERROR_OTTD_VERSION_NUMBER                            :{1:STRING} изисква CrimeTTD версия {STRING} или по-нова.
 STR_NEWGRF_ERROR_AFTER_TRANSLATED_FILE                          :GRF файлат беше предназначен да преведе
 STR_NEWGRF_ERROR_TOO_MANY_NEWGRFS_LOADED                        :Прекалено много графики (NewGRF) са заредени.
 STR_NEWGRF_ERROR_STATIC_GRF_CAUSES_DESYNC                       :Зареждане на {1:STRING} като статичен NewGRF заедно с {STRING} може да доведе до проблеми.
@@ -2973,7 +2973,7 @@ STR_NEWGRF_ERROR_INVALID_SPRITE_LAYOUT                          :Invalid/unknown
 
 # NewGRF related 'general' warnings
 STR_NEWGRF_POPUP_CAUTION_CAPTION                                :{WHITE}Внимание!
-STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}На път си да извършиш промени в активна игра. Това може да блокира OpenTTD. Не подавайте оплаквания за тези проблеми.{}Напълно ли си сигурен в това?
+STR_NEWGRF_CONFIRMATION_TEXT                                    :{YELLOW}На път си да извършиш промени в активна игра. Това може да блокира CrimeTTD. Не подавайте оплаквания за тези проблеми.{}Напълно ли си сигурен в това?
 
 STR_NEWGRF_DUPLICATE_GRFID                                      :{WHITE}Не може да се добави файл: дупликиран GRF ID
 STR_NEWGRF_COMPATIBLE_LOADED                                    :{ORANGE}Липсват файлове (заредени са съвместими GRF файлове)
@@ -2982,7 +2982,7 @@ STR_NEWGRF_TOO_MANY_NEWGRFS                                     :{WHITE}Файл
 STR_NEWGRF_COMPATIBLE_LOAD_WARNING                              :{WHITE}Съвместими GRF файлове са заредени вместо липсващите
 STR_NEWGRF_DISABLED_WARNING                                     :{WHITE}Липсващите GRF файлове са изключени
 STR_NEWGRF_UNPAUSE_WARNING_TITLE                                :{YELLOW}Липсва GRF файл(ове)
-STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Може да счупи OpenTTD. Не пускайте съобщение за грешка за последвали счупвания.{}Желаете ли да се махне паузата?
+STR_NEWGRF_UNPAUSE_WARNING                                      :{WHITE}Може да счупи CrimeTTD. Не пускайте съобщение за грешка за последвали счупвания.{}Желаете ли да се махне паузата?
 
 # NewGRF status
 STR_NEWGRF_LIST_NONE                                            :Няма
@@ -4564,7 +4564,7 @@ STR_ERROR_CAN_T_PLACE_SIGN_HERE                                 :{WHITE}Тук �
 STR_ERROR_CAN_T_CHANGE_SIGN_NAME                                :{WHITE}Името на знака не може да бъде променяно...
 STR_ERROR_CAN_T_DELETE_SIGN                                     :{WHITE}Не може да изтриеш знака...
 
-# Translatable comment for OpenTTD's desktop shortcut
+# Translatable comment for CrimeTTD's desktop shortcut
 ###external 1
 STR_DESKTOP_SHORTCUT_COMMENT                                    :Симулативна игра, базирана на Transport Tycoon Deluxe
 
